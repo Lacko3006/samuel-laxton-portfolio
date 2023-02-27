@@ -5,7 +5,7 @@ import React from "react";
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <div className="d-flex align-items-center justify-content-between p-1">
       <h1 className="text-left">Sam Laxton</h1>
       <ul className="nav d-flex justify-content-end">
         <li className="">
