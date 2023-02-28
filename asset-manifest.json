@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.c775f62a.css",
-    "main.js": "/react-gh-pages/static/js/main.9804a764.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.c775f62a.css.map": "/react-gh-pages/static/css/main.c775f62a.css.map",
-    "main.9804a764.js.map": "/react-gh-pages/static/js/main.9804a764.js.map"
+    "main.css": "/samuel-laxton-portfolio/static/css/main.c775f62a.css",
+    "main.js": "/samuel-laxton-portfolio/static/js/main.9804a764.js",
+    "index.html": "/samuel-laxton-portfolio/index.html",
+    "main.c775f62a.css.map": "/samuel-laxton-portfolio/static/css/main.c775f62a.css.map",
+    "main.9804a764.js.map": "/samuel-laxton-portfolio/static/js/main.9804a764.js.map"
   },
   "entrypoints": [
     "static/css/main.c775f62a.css",
