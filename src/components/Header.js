@@ -1,4 +1,6 @@
+// import { useRef } from 'react';
 import React from "react";
+import { Link } from "react-router-dom"
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
@@ -9,39 +11,38 @@ function Header({ currentPage, handlePageChange }) {
       <h1 className="text-left">Sam Laxton</h1>
       <ul className="nav d-flex justify-content-end">
         <li className="">
-          <a
-            href="#home"
+          <Link to='/'
             onClick={() => handlePageChange("Home")}
             // This is a conditional (ternary) operator that checks to see if the current page is "Home"
             // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
             className={currentPage === "Home" ? "nav-link active" : "nav-link"}
           >
             Home
-          </a>
+          </Link>
         </li>
         <li className="">
-          <a
-            href="#about"
+          <Link
+            to="/about"
             onClick={() => handlePageChange("About")}
             // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === "About" ? "nav-link active" : "nav-link"}
           >
             About
-          </a>
+          </Link>
         </li>
         <li className="">
-          <a
-            href="#blog"
+          <Link
+            to="/blog"
             onClick={() => handlePageChange("Blog")}
             // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === "Blog" ? "nav-link active" : "nav-link"}
           >
             Blog
-          </a>
+          </Link>
         </li>
         <li className="">
-          <a
-            href="#contact"
+          <Link
+            to="/contact"
             onClick={() => handlePageChange("Contact")}
             // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={
@@ -49,11 +50,11 @@ function Header({ currentPage, handlePageChange }) {
             }
           >
             Contact
-          </a>
+          </Link>
         </li>
         <li className="">
-          <a
-            href="#projects"
+          <Link
+            to="/projects"
             onClick={() => handlePageChange("Projects")}
             // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={
@@ -61,7 +62,7 @@ function Header({ currentPage, handlePageChange }) {
             }
           >
             Projects
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
