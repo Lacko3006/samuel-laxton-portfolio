@@ -1,8 +1,9 @@
 import React from 'react';
+import Styles from "../../css/Styles.css";
 
 export default function About() {
   return (
-    <div>
+    <div className="window-size">
       <a id="about"></a>
       <h1>About Me</h1>
       <p>

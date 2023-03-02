@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Blog() {
   return (
-    <div>
+    <div className='window-size'>
       <a id="blog"></a>
       <h1>Blog Page</h1>
       <p>
