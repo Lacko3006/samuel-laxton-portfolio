@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div className='window-sizeg' >
+    <div className='window-size' >
       <a id="contact"></a>
       <h1>Contact Page</h1>
       <p>

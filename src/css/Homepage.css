@@ -1,3 +1,11 @@
-.Header {
+.header {
    color: red;
+}
+
+.header-name h1 {
+   color: aqua;
+}
+
+.header-name h3 {
+   color: green;
 }
