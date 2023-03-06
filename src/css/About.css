@@ -1,3 +1,24 @@
-.about-me{
-    color: red;
+.about-me {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.about-me-text {
+  margin-top: 0px;
+  line-height: 25px;
+}
+
+.profile-pic {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 350px;
+  border: 5px solid transparent;
+  border-radius: 50%;
 }
