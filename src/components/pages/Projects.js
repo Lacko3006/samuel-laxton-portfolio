@@ -5,9 +5,9 @@ export default function Projects() {
     <div className="window-size">
       <a id="projects"></a>
       <h1>Projects</h1>
-      <p>
-        This is my Projects page
-      </p>
+      <a href='https://reactify-album-review.herokuapp.com/' target="_blank">
+        This is a link to my Reactify Album Review Application
+      </a>
     </div>
   );
 }
