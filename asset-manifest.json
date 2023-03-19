@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/samuel-laxton-portfolio/static/css/main.0d3f505d.css",
-    "main.js": "/samuel-laxton-portfolio/static/js/main.c03a2763.js",
+    "main.js": "/samuel-laxton-portfolio/static/js/main.b7c8176b.js",
     "static/media/IMG_0376.jpeg": "/samuel-laxton-portfolio/static/media/IMG_0376.4af611503a3884017581.jpeg",
     "index.html": "/samuel-laxton-portfolio/index.html",
     "main.0d3f505d.css.map": "/samuel-laxton-portfolio/static/css/main.0d3f505d.css.map",
-    "main.c03a2763.js.map": "/samuel-laxton-portfolio/static/js/main.c03a2763.js.map"
+    "main.b7c8176b.js.map": "/samuel-laxton-portfolio/static/js/main.b7c8176b.js.map"
   },
   "entrypoints": [
     "static/css/main.0d3f505d.css",
-    "static/js/main.c03a2763.js"
+    "static/js/main.b7c8176b.js"
   ]
 }
