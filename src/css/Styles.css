@@ -2,3 +2,7 @@
     min-height: 100vh;
     min-height: 100dvh;
 }
+
+body {
+    background-color: #008080 !important;
+}
