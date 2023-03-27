@@ -1,12 +1,16 @@
 .header {
-   color: red;
    background-color: #FFFFF0;
 }
 
-.header-name h1 {
-   color: aqua;
+.header a  {
+   color: #F08223;
+   font-size: 25px;
+}
+
+.header-name {
+   color: #F08223;
 }
 
 .header-name h3 {
-   color: green;
+   padding-top: 15%;
 }

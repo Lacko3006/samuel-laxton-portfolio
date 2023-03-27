@@ -5,9 +5,8 @@ import React from "react";
 
 function Header({ currentPage}) {
   return (
-    <div className="d-flex align-items-center justify-content-between p-1 header">
-      <h1 className="text-left">Sam Laxton</h1>
-      <ul className="nav d-flex justify-content-end">
+    <div className="align-items-center p-2 header">
+      <ul className="nav d-flex justify-content-between header">
         <li className="">
           <a
             href="#home"
