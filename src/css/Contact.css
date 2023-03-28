@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+
+.contact-background {
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 750px;
+  width: 85%;
+  text-align: center;
+  background-color: #fffff0;
+  border-radius: 20%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #f08223;
+}
+
+.contact-title {
+  font-family: century-gothic, sans-serif;
+  font-weight: bold;
+  margin-bottom: 15%;
+  color: #f08223;
+  font-size: 50px;
+}
+
+.contact-content {
+  margin-top: 10%;
+}
+
+.link-description {
+  font-size: 45px;
+  color: #f08223;
+  font-family: "Alkatra", cursive;
+  margin-bottom: 10%;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links li {
+  list-style-type: none;
+  display: inline;
+}
+
+.github-img {
+  width: 200px;
+}
+
+.linked-in-img {
+  width: 150px;
+}
+
+.resume-img {
+  width: 150px;
+  border-radius: 200%;
+}

@@ -1,13 +1,12 @@
 import React from 'react';
-import Styles from "../../css/Styles.css";
-import AboutCss from "../../css/About.css"
+import "../../css/About.css"
 import ProfilePic from "../../images/IMG_0376.jpeg"
 
-const aboutMeCss = { ...Styles, ...AboutCss }
 
 export default function About() {
   return (
-    <div className="window-size about-me-background">
+    <div className="window-size">
+      <div className='about-me-background'>
       <a id="about"></a>
       <h2 className="about-me" >About Me</h2>
       <p className="about-me-text">
@@ -17,6 +16,7 @@ export default function About() {
       I am currently employed at Element Materials Technology as a Doors & Window Test Engineer. I have always wanted a jon in technology because it has always been a passion of mine and being able to be creative in a technology environment is what I wanted to make my career.
       </p>
       <img className="profile-pic" src={ProfilePic}/>
+      </div>
     </div>
   );
 }
