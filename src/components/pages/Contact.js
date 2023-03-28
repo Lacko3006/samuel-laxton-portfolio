@@ -8,7 +8,7 @@ import ResumePdf from "../../resume/sam-laxton-cv.pdf"
 export default function Contact() {
   return (
     <div className='window-size' >
-      <div className='contact-background'>
+      <div className='background-custom'>
       <a id="contact"></a>
       <div className='contact-content'>
       <h1 className='contact-title'>Contact Page</h1>

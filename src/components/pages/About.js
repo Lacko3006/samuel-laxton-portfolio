@@ -6,7 +6,7 @@ import ProfilePic from "../../images/IMG_0376.jpeg"
 export default function About() {
   return (
     <div className="window-size">
-      <div className='about-me-background'>
+      <div className='background-custom'>
       <a id="about"></a>
       <h2 className="about-me" >About Me</h2>
       <p className="about-me-text">

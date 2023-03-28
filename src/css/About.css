@@ -12,26 +12,13 @@
   text-align: end;
 }
 
-.about-me-background {
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
-  height: 750px;
-  width: 85%;
-  text-align: center;
-  background-color: #fffff0;
-  border-radius: 20%;
-  border-style: solid;
-  border-width: 10px;
-  border-color: #f08223;
-}
-
 .about-me-text {
   margin: auto;
   width: 80%;
   font-family: "Alkatra", cursive;
   line-height: 25px;
   font-size: 20px;
+  color: #f08223;
 }
 
 .about-me-text-p2 {
@@ -41,6 +28,7 @@
   font-family: "Alkatra", cursive;
   line-height: 25px;
   font-size: 20px;
+  color: #f08223;
 }
 
 .profile-pic {

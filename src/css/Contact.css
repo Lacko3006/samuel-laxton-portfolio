@@ -1,19 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
 
-.contact-background {
-  margin-top: 10%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 750px;
-  width: 85%;
-  text-align: center;
-  background-color: #fffff0;
-  border-radius: 20%;
-  border-style: solid;
-  border-width: 10px;
-  border-color: #f08223;
-}
-
 .contact-title {
   font-family: century-gothic, sans-serif;
   font-weight: bold;
