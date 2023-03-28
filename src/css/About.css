@@ -1,24 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
 .about-me {
-  display: flex;
-  flex-direction: column;
-  color: red;
+  color: #F08223;
   width: 80%;
   margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
   text-align: center;
+  font-family: century-gothic, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: end;
+}
+
+.about-me-background {
+  margin: auto;
+  height: 100px;
+  width: 80%;
+  text-align: center;
+  background-color: #FFFFF0;
+  border-radius: 20%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #F08223;
 }
 
 .about-me-text {
-  margin-top: 0px;
+  margin: auto;
+  width: 80%;
+  font-family: 'Alkatra', cursive;
   line-height: 25px;
+  font-size: 20px;
 }
+
+.about-me-text-p2 {
+  margin: auto;
+  padding-top: 20px;
+  width: 80%;
+  font-family: 'Alkatra', cursive;
+  line-height: 25px;
+  font-size: 20px;
+}
+
 
 .profile-pic {
   display: block;
-  margin-top: 50px;
+  margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
-  height: 350px;
+  height: 49%;
   border: 5px solid transparent;
-  border-radius: 50%;
+  border-radius: 60%;
 }

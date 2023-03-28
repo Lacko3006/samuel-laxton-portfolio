@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 .header {
    background-color: #FFFFF0;
@@ -14,7 +14,16 @@
 }
 
 .header-name {
+   font-family: century-gothic, sans-serif;
+   font-weight: bold;
+   font-size: 100px;
+   text-shadow: -1px -1px 0 #FFFFF0, 1px -1px 0 #FFFFF0, -1px 1px 0 #FFFFF0, 1px 1px 0 #FFFFF0;
    color: #F08223;
+}
+
+.header-title {
+   font-weight: bold;
+   font-size: 75px;
 }
 
 .header-name h3 {
