@@ -29,3 +29,10 @@
 .header-name h3 {
    padding-top: 15%;
 }
+
+@media only screen and (max-width: 726px) {
+   .header a  {
+      font-size: 15px;
+   }
+ }
+

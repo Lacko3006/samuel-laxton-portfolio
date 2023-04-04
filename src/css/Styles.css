@@ -22,3 +22,10 @@ body {
   border-width: 10px;
   border-color: #f08223;
 }
+
+@media only screen and (max-width: 726px) {
+  body {
+    width: 100% !important;
+  }
+}
+  
