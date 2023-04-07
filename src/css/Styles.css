@@ -2,19 +2,15 @@
 
 .window-size {
   min-height: 100vh;
-  min-height: 100dvh;
+  overflow-x: hidden;
 }
 
 body {
-    margin: 0;
-    padding: 0;
   background-color: #fffff0 !important;
   width: 100%;
 }
 
 .background-custom {
-  width: 85%;
-  text-align: center;
+  width: 100%;
   background-color: #fffff0;
 }
-  
