@@ -10,7 +10,6 @@ body {
   background-color: #fffff0 !important;
   overflow-x: hidden;
   display: flex;
-  height: 100vh;
 }
 
 #root {
