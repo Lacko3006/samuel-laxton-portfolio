@@ -3,6 +3,7 @@
 .about-me {
   display: flex;
   flex-direction: column;
+  min-height: 80vh;
 }
 
 .about-me h2 {
@@ -14,8 +15,6 @@
 }
 
 .about-me-text {
-  margin: auto;
-  width: 80%;
   font-family: "Alkatra", cursive;
   line-height: 25px;
   font-size: 20px;
@@ -23,9 +22,7 @@
 }
 
 .about-me-text-p2 {
-  margin: auto;
   padding-top: 20px;
-  width: 80%;
   font-family: "Alkatra", cursive;
   line-height: 25px;
   font-size: 20px;
@@ -36,7 +33,7 @@
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 20%;
   border: 5px solid transparent;
   border-radius: 60%;
 }

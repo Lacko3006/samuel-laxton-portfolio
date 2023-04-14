@@ -3,6 +3,7 @@ import HouseLogo from "../images/house-logo.png";
 import AboutMeLogo from "../images/about-me.png";
 import MobileLogo from "../images/mobile-logo.png";
 import ProjectsLogo from "../images/project-logo.png";
+import "../css/Header.css";
 
 export default function Navbar() {
   const [stickyClass, setStickyClass] = useState("");

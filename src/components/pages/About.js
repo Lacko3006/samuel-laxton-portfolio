@@ -6,8 +6,9 @@ import ProfilePic from "../../images/IMG_0376.jpeg"
 export default function About() {
   return (
     <div className="about-me">
-      <a id="about"></a>
+      <a id="about">
       <h2>About Me</h2>
+      </a>
       <p className="about-me-text">
         I am Sam Laxton. I have graduated from the University of Birmingham Coding Bootcamp. I have a passion for Web Development and its technologies. I attended the bootcamp 24 week course at the same time as working full time.  I have learnt a variety of different technologies such as: HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, Database Theory, Bookshelf.js, MongoDB, MySQL, Java, Command Line and Git.
       </p>
