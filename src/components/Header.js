@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import HouseLogo from "../images/house-logo.png";
 import AboutMeLogo from "../images/about-me.png";
-import MobileLogo from "../images/mobile-logo.png"
-import ProjectsLogo from "../images/project-logo.png"
+import MobileLogo from "../images/mobile-logo.png";
+import ProjectsLogo from "../images/project-logo.png";
 
-function Header() {
+export default function Navbar() {
+  const [stickyClass, setStickyClass] = useState("");
+
+  useEffect(() => {
+    window.addEventListener("scroll", stickNavbar);
+    return () => window.removeEventListener("scroll", stickNavbar);
+  }, []);
+
+  const stickNavbar = () => {
+    if (window !== undefined) {
+      let windowHeight = window.scrollY;
+      // window height changed for the demo
+      windowHeight > 150 ? setStickyClass("sticky-nav") : setStickyClass("");
+    }
+  };
+
   return (
-    <div className="navbar">
-      <h2 className="navbar-name">Sam Laxton Portfolio</h2>
+    <div className={`navbar ${stickyClass}`}>
+      <h2>Sam Laxton Portfolio</h2>
       <div className="navbar-links">
         <div className="container">
           <a href="#home">
@@ -24,26 +39,20 @@ function Header() {
           </a>
         </div>
         <div className="container">
-        <a href="#contact">
-        <img
+          <a href="#contact">
+            <img
               className="mobile-img"
               src={MobileLogo}
               alt="mobile logo"
             ></img>
-        </a>
+          </a>
         </div>
         <div className="container">
-        <a href="#contact">
-        <img
-              className="project-img"
-              src={ProjectsLogo}
-              alt="mobile logo"
-            ></img>
-        </a>
+          <a href="#projects">
+            <img className="project-img" src={ProjectsLogo} alt="Book"></img>
+          </a>
         </div>
       </div>
     </div>
   );
 }
-
-export default Header;

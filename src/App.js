@@ -4,16 +4,15 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects";
 import Header from "./components/Header";
-import './css/Styles.css'
 
 function App() {
   return (
-    <div>
+    <div className="App">
        <Header />
-      <Homepage/>
-      <About />
-      <Contact />
-      <Projects />
+      <Homepage className="Homepage" />
+      <About className="About" />
+      <Contact className="Contact" />
+      <Projects className="Projects" />
     </div>
   );
 }

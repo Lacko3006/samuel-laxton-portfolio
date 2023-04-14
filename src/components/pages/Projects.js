@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Projects() {
   return (
-    <div className="window-size">
+    <div className="project-page">
       <div className='background-custom'>
       <div id="projects"></div>
       <h1>Projects</h1>
