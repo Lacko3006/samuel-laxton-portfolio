@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/samuel-laxton-portfolio/static/css/main.ff185195.css",
-    "main.js": "/samuel-laxton-portfolio/static/js/main.1b6185fa.js",
+    "main.css": "/samuel-laxton-portfolio/static/css/main.a6877fed.css",
+    "main.js": "/samuel-laxton-portfolio/static/js/main.307e0bf8.js",
     "static/media/IMG_0376.jpeg": "/samuel-laxton-portfolio/static/media/IMG_0376.4af611503a3884017581.jpeg",
     "static/media/sam-laxton-cv.pdf": "/samuel-laxton-portfolio/static/media/sam-laxton-cv.79c2b56e929c5b3b1850.pdf",
     "static/media/resume-pic.jpg": "/samuel-laxton-portfolio/static/media/resume-pic.cd49f8e8a88a2e6224d7.jpg",
     "static/media/GitHub-logo.jpg": "/samuel-laxton-portfolio/static/media/GitHub-logo.7c8f7736007664c4b0ba.jpg",
     "static/media/LinkedIn_logo_initials.png.webp": "/samuel-laxton-portfolio/static/media/LinkedIn_logo_initials.png.c7f76263b8ea214b7985.webp",
     "index.html": "/samuel-laxton-portfolio/index.html",
-    "main.ff185195.css.map": "/samuel-laxton-portfolio/static/css/main.ff185195.css.map",
-    "main.1b6185fa.js.map": "/samuel-laxton-portfolio/static/js/main.1b6185fa.js.map"
+    "main.a6877fed.css.map": "/samuel-laxton-portfolio/static/css/main.a6877fed.css.map",
+    "main.307e0bf8.js.map": "/samuel-laxton-portfolio/static/js/main.307e0bf8.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff185195.css",
-    "static/js/main.1b6185fa.js"
+    "static/css/main.a6877fed.css",
+    "static/js/main.307e0bf8.js"
   ]
 }
