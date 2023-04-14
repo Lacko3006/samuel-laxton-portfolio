@@ -46,7 +46,7 @@ const ProjectCards = () => {
       <div className="card-content">
         <h3 className="card-title">{project.title}</h3>
         <p className="card-description">{project.description}</p>
-        <a href={project.link} target="_blank" className="card-button">
+        <a href={project.link} className="card-button">
           View Project
         </a>
       </div>
