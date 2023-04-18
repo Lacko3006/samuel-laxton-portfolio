@@ -25,7 +25,6 @@
 .card-image {
   width: 100%;
   height: 200px;
-  object-fit: cover;
 }
 
 .card-content {
@@ -48,8 +47,11 @@
   background-color: #007bff;
   color: #fff;
   border-radius: 5px;
-  text-decoration: none;
   transition: background-color 0.3s ease;
+  cursor: pointer;
+  text-decoration: underline;
+  z-index: 1;
+  pointer-events: auto;
 }
 
 .card-button:hover {

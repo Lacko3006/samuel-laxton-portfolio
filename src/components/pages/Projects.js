@@ -1,7 +1,11 @@
 import React from "react";
 import "../../css/Projects.css"; // import custom CSS file for styling
 
-import CalculatorProjectPic from "../../images/calculator-example.png"
+import CalculatorProjectPic from "../../images/calculator-example.png";
+import FilmapediaPic from "../../images/Filmapedia.png";
+import RhythmRaterPic from "../../images/Rhythm-rater.png";
+import SQLPic from "../../images/SQL-mockup.png";
+import ReadMeGeneratorPic from "../../images/readme-generator.png";
 
 const ProjectCards = () => {
   // Create an array of objects to hold project information
@@ -10,32 +14,40 @@ const ProjectCards = () => {
       id: 1,
       title: "JavaScript Calculator",
       description: "This was my first solo project.",
-      image: CalculatorProjectPic, // Replace with your own image URL
+      image: CalculatorProjectPic,
       link: "https://github.com/Lacko3006/SamLaxton-Calculator/blob/main/README.md",
     },
     {
       id: 2,
-      title: "Project 2",
-      description: "This is project 2",
-      image: "https://placekitten.com/200/200", // Replace with your own image URL
+      title: "Filmapedia",
+      description:
+        "This project was created to help film lovers find popular information about their favorite skills at a moments notice.",
+      image: FilmapediaPic,
+      link: "https://lacko3006.github.io/Filmapedia/",
     },
     {
       id: 3,
-      title: "Project 3",
-      description: "This is project 3",
-      image: "https://placekitten.com/200/200", // Replace with your own image URL
+      title: "Rhythm Rater (Mini Project 2)",
+      description:
+        "This project was created to help people who love music rate their favorite albums from a very long list of locally seeded data using SQL",
+      image: RhythmRaterPic,
+      link: "https://github.com/Lacko3006/all-albums-all-genres",
     },
     {
       id: 4,
-      title: "Project 4",
-      description: "This is project 4",
-      image: "https://placekitten.com/200/200", // Replace with your own image URL
+      title: "SQL Employee Tracker",
+      description:
+        "This  SQL employee tracker, is used to keep track of employees within a database. I have used the inquirer package which has allowed me to use questions as prompts, I have then used the answers to the questions to send the information into a database which then can be used to showcase current employees, salaries, roles and manager. The database is called employeetracker_db.",
+      image: SQLPic,
+      link: "https://drive.google.com/file/d/1uOl2kyTLF7tp4V74GB1ciL8MShe4I6gd/view?usp=sharing",
     },
     {
       id: 5,
-      title: "Project 5",
-      description: "This is project 5",
-      image: "https://placekitten.com/200/200", // Replace with your own image URL
+      title: "README.md Generator",
+      description:
+        "This is a README.md generator, this is used to create a high-quality README. I have used the inquirer package & node.js, which has allowed me to use questions as prompts, I have then used the answers to the questions to populate the README.md.",
+      image: ReadMeGeneratorPic,
+      link: "https://drive.google.com/file/d/19booD_SGo1OdDejbeYOJydccxme42GYR/view?usp=share_link",
     },
   ];
 
@@ -57,7 +69,7 @@ const ProjectCards = () => {
   return (
     <div className="projects-page">
       <a id="projects">
-      <h1>Projects</h1>
+        <h1>Projects</h1>
       </a>
       <div className="card-grid">{projectCards}</div>
     </div>

@@ -22,36 +22,38 @@ export default function Navbar() {
   };
 
   return (
-    <div className={`navbar ${stickyClass}`}>
-      <h2>Sam Laxton Portfolio</h2>
-      <div className="navbar-links">
-        <div className="container">
-          <a href="#home">
-            <img className="house-img" src={HouseLogo} alt="House Logo"></img>
-          </a>
-        </div>
-        <div className="container">
-          <a href="#about">
-            <img
-              className="about-me-img"
-              src={AboutMeLogo}
-              alt="About Me Logo"
-            ></img>
-          </a>
-        </div>
-        <div className="container">
-          <a href="#contact">
-            <img
-              className="mobile-img"
-              src={MobileLogo}
-              alt="mobile logo"
-            ></img>
-          </a>
-        </div>
-        <div className="container">
-          <a href="#projects">
-            <img className="project-img" src={ProjectsLogo} alt="Book"></img>
-          </a>
+    <div className="navbar-wrapper">
+      <div className={`navbar ${stickyClass}`}>
+        <h2>Sam Laxton Portfolio</h2>
+        <div className="navbar-links">
+          <div className="container">
+            <a href="#home">
+              <img className="house-img" src={HouseLogo} alt="House Logo"></img>
+            </a>
+          </div>
+          <div className="container">
+            <a href="#about">
+              <img
+                className="about-me-img"
+                src={AboutMeLogo}
+                alt="About Me Logo"
+              ></img>
+            </a>
+          </div>
+          <div className="container">
+            <a href="#contact">
+              <img
+                className="mobile-img"
+                src={MobileLogo}
+                alt="mobile logo"
+              ></img>
+            </a>
+          </div>
+          <div className="container">
+            <a href="#projects">
+              <img className="project-img" src={ProjectsLogo} alt="Book"></img>
+            </a>
+          </div>
         </div>
       </div>
     </div>

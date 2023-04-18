@@ -5,12 +5,12 @@
   top: 0; /* Position the navbar at the top of the page */
   margin: 0px;
   display: flex;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
 
 .sticky-nav {
+  width: 50%;
   position: fixed;
   top: 0;
   left: 10px;
@@ -33,6 +33,7 @@
 .sticky-nav h2 {
    display: none;
 }
+
 
 .container {
   width: 100px;
