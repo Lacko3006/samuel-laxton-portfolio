@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/samuel-laxton-portfolio/static/css/main.a75ca253.css",
-    "main.js": "/samuel-laxton-portfolio/static/js/main.93748bb5.js",
+    "main.css": "/samuel-laxton-portfolio/static/css/main.2b461553.css",
+    "main.js": "/samuel-laxton-portfolio/static/js/main.b03246cb.js",
+    "static/media/Filmapedia.png": "/samuel-laxton-portfolio/static/media/Filmapedia.3a24a427c714a4406161.png",
     "static/media/IMG_0376.jpeg": "/samuel-laxton-portfolio/static/media/IMG_0376.4af611503a3884017581.jpeg",
+    "static/media/Rhythm-rater.png": "/samuel-laxton-portfolio/static/media/Rhythm-rater.552ef0a32b27fea1162b.png",
+    "static/media/readme-generator.png": "/samuel-laxton-portfolio/static/media/readme-generator.343bffbb555e5063af58.png",
+    "static/media/SQL-mockup.png": "/samuel-laxton-portfolio/static/media/SQL-mockup.811adfc4be170fa62e27.png",
     "static/media/calculator-example.png": "/samuel-laxton-portfolio/static/media/calculator-example.8fb695b2b483dad11857.png",
     "static/media/sam-laxton-cv.pdf": "/samuel-laxton-portfolio/static/media/sam-laxton-cv.79c2b56e929c5b3b1850.pdf",
     "static/media/resume-pic.jpg": "/samuel-laxton-portfolio/static/media/resume-pic.cd49f8e8a88a2e6224d7.jpg",
     "static/media/GitHub-logo.jpg": "/samuel-laxton-portfolio/static/media/GitHub-logo.7c8f7736007664c4b0ba.jpg",
     "static/media/LinkedIn_logo_initials.png.webp": "/samuel-laxton-portfolio/static/media/LinkedIn_logo_initials.png.c7f76263b8ea214b7985.webp",
     "index.html": "/samuel-laxton-portfolio/index.html",
-    "main.a75ca253.css.map": "/samuel-laxton-portfolio/static/css/main.a75ca253.css.map",
-    "main.93748bb5.js.map": "/samuel-laxton-portfolio/static/js/main.93748bb5.js.map"
+    "main.2b461553.css.map": "/samuel-laxton-portfolio/static/css/main.2b461553.css.map",
+    "main.b03246cb.js.map": "/samuel-laxton-portfolio/static/js/main.b03246cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.a75ca253.css",
-    "static/js/main.93748bb5.js"
+    "static/css/main.2b461553.css",
+    "static/js/main.b03246cb.js"
   ]
 }
