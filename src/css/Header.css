@@ -2,7 +2,7 @@
 
 .navbar {
   background: transparent;
-  top: 0; /* Position the navbar at the top of the page */
+  top: 0;
   margin: 0px;
   display: flex;
   justify-content: space-between;
@@ -10,7 +10,6 @@
 }
 
 .sticky-nav {
-  width: 50%;
   position: fixed;
   top: 0;
   left: 10px;

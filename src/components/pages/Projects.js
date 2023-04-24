@@ -15,7 +15,7 @@ const ProjectCards = () => {
       title: "JavaScript Calculator",
       description: "This was my first solo project.",
       image: CalculatorProjectPic,
-      link: "https://github.com/Lacko3006/SamLaxton-Calculator/blob/main/README.md",
+      link: "https://lacko3006.github.io/SamLaxton-Calculator"
     },
     {
       id: 2,
