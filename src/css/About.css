@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   min-height: 80vh;
+  align-items: center; /* Center align content vertically */
+  padding: 20px; /* Add padding for better spacing */
 }
 
 .about-me h2 {
@@ -11,7 +13,7 @@
   font-family: century-gothic, sans-serif;
   font-size: 50px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end; /* Align heading to the right */
 }
 
 .about-me-text {
@@ -19,6 +21,7 @@
   line-height: 25px;
   font-size: 18px;
   color: #f08223;
+  margin-top: 20px; /* Add margin to separate paragraphs */
 }
 
 .about-me-text-p2 {
@@ -31,9 +34,9 @@
 
 .profile-pic {
   margin-top: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
+  width: 50%;
+  max-width: 300px;
   border: 5px solid transparent;
-  border-radius: 60%;
+  border-radius: 50%;
+  transform: rotate(90deg); /* Rotate the profile picture vertically */
 }

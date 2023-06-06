@@ -21,6 +21,12 @@ export default function Navbar() {
     }
   };
 
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
     <div className="navbar-wrapper">
       <div className={`navbar ${stickyClass}`}>
@@ -54,6 +60,29 @@ export default function Navbar() {
               <img className="project-img" src={ProjectsLogo} alt="Book"></img>
             </a>
           </div>
+        </div>
+        <div
+          id="burger-icon"
+          onClick={toggleMobileMenu}
+          className={isMobileMenuOpen ? "open" : ""}
+        >
+          <div className={`bar1 ${isMobileMenuOpen ? "open" : ""}`}></div>
+          <div className={`bar2 ${isMobileMenuOpen ? "open" : ""}`}></div>
+          <div className={`bar3 ${isMobileMenuOpen ? "open" : ""}`}></div>
+          <ul className={`mobile-menu ${isMobileMenuOpen ? "open" : ""}`}>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
