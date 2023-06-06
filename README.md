@@ -36,6 +36,6 @@ For any inquiries, feel free to contact me:
 
 - **Email**: lacko_6789@hotmail.co.uk
 - **GitHub**: https://github.com/Lacko3006
-- **LinkedIN**: https://www.linkedin.com/in/samuel-laxton-ab10857b/
+- **LinkedIn**: https://www.linkedin.com/in/samuel-laxton-ab10857b/
 - **Portfolio Link**: https://lacko3006.github.io/samuel-laxton-portfolio/
 
