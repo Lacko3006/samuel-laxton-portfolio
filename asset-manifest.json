@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/samuel-laxton-portfolio/static/css/main.64dda7e7.css",
-    "main.js": "/samuel-laxton-portfolio/static/js/main.1e0915fc.js",
+    "main.css": "/samuel-laxton-portfolio/static/css/main.036a2a74.css",
+    "main.js": "/samuel-laxton-portfolio/static/js/main.e0c8d3f6.js",
     "static/media/Filmapedia.png": "/samuel-laxton-portfolio/static/media/Filmapedia.3a24a427c714a4406161.png",
     "static/media/Rhythm-rater.png": "/samuel-laxton-portfolio/static/media/Rhythm-rater.552ef0a32b27fea1162b.png",
     "static/media/IMG_0376.jpeg": "/samuel-laxton-portfolio/static/media/IMG_0376.6bd04805a6de6aabdb53.jpeg",
@@ -13,11 +13,11 @@
     "static/media/GitHub-logo.jpg": "/samuel-laxton-portfolio/static/media/GitHub-logo.7c8f7736007664c4b0ba.jpg",
     "static/media/LinkedIn_logo_initials.png.webp": "/samuel-laxton-portfolio/static/media/LinkedIn_logo_initials.png.c7f76263b8ea214b7985.webp",
     "index.html": "/samuel-laxton-portfolio/index.html",
-    "main.64dda7e7.css.map": "/samuel-laxton-portfolio/static/css/main.64dda7e7.css.map",
-    "main.1e0915fc.js.map": "/samuel-laxton-portfolio/static/js/main.1e0915fc.js.map"
+    "main.036a2a74.css.map": "/samuel-laxton-portfolio/static/css/main.036a2a74.css.map",
+    "main.e0c8d3f6.js.map": "/samuel-laxton-portfolio/static/js/main.e0c8d3f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.64dda7e7.css",
-    "static/js/main.1e0915fc.js"
+    "static/css/main.036a2a74.css",
+    "static/js/main.e0c8d3f6.js"
   ]
 }
