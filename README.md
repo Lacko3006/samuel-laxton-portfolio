@@ -1,6 +1,6 @@
 # Professional Portfolio
 
-This is my professional portfolio built using React. It showcases my skills, projects, and experiences in a concise and visually appealing manner. The portfolio is designed to provide potential employers, clients, and collaborators with an overview of my expertise and accomplishments.
+This is my professional portfolio built using React. It showcases my skills, projects, and experiences in a concise and visually appealing manner. This portfolio is designed to provide potential employers, clients, and collaborators with an overview of my expertise and accomplishments.
 
 ## Table of Contents
 
