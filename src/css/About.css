@@ -5,7 +5,8 @@
   flex-direction: column;
   min-height: 80vh;
   align-items: center; /* Center align content vertically */
-  padding: 20px; /* Add padding for better spacing */
+  padding-left: 150px; /* Add padding for better spacing */
+  padding-right: 150px;
 }
 
 .about-me h2 {

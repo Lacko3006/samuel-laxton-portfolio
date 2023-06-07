@@ -68,9 +68,8 @@ const ProjectCards = () => {
   // Render the card grid with the project cards
   return (
     <div className="project-page">
-      <a id="projects">
+      <a id="projects"></a>
         <h1>Projects</h1>
-      </a>
       <div className="card-grid">{projectCards}</div>
     </div>
   );
