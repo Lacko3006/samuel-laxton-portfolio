@@ -3,7 +3,7 @@
 .about-me {
   display: flex;
   align-items: center; /* Center align content vertically */
-  padding-top: 150px;
+  padding-top: 75px;
   padding-left: 150px; /* Add padding for better spacing */
   padding-right: 150px;
 }
@@ -14,7 +14,7 @@
   font-family: century-gothic, sans-serif;
   font-size: 50px;
   display: flex;
-  justify-content: flex-end; /* Align heading to the right */
+  justify-content: center; /* Align heading to the right */
 }
 
 .about-me-text {
@@ -40,4 +40,26 @@
   max-width: 300px;
   border: 5px solid transparent;
   transform: rotate(90deg); /* Rotate the profile picture vertically */
+}
+
+@media only screen and (max-width: 756px) {
+  .about-me {
+    padding-top: 50px;
+    flex-direction: column;
+  }
+
+  .about-me h2 {
+    font-size: 26px;
+  }
+  
+  .profile-pic {
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-me {
+    padding: 50px;
+  }
+
 }

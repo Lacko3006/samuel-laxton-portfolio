@@ -29,16 +29,23 @@
 
 @media only screen and (max-width: 726px) {
   .homepage-name {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .homepage-title {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .navbar-name {
     display: none;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .homepage {
+    min-height: 30vh;
+  }
+}
+
 
 
