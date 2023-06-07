@@ -6,8 +6,9 @@ export default function About() {
   return (
     <div className="about-me">
       <a id="about"></a>
-      <h2>About Me</h2>
-      <p className="about-me-text">
+      <div className="about-me-text" >
+        <h2>About Me</h2>
+      <p>
         I am Sam Laxton. I have graduated from the University of Birmingham
         Coding Bootcamp. I have a passion for Web Development and its
         technologies. I attended the bootcamp 24 week course at the same time as
@@ -22,6 +23,7 @@ export default function About() {
         has always been a passion of mine and being able to be creative in this
         sector and want to pursue my career
       </p>
+      </div>
       <img className="profile-pic" src={ProfilePic} />
     </div>
   );

@@ -20,12 +20,12 @@
 }
 
 .container img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
 .navbar-name {
-  font-size: 15px;
+  font-size: 16px;
   margin: 8px;
   padding: 30px;
 }
@@ -47,6 +47,7 @@
 }
 
 .container img:hover {
+  max-width: 100%;
   width: 125px;
 }
 

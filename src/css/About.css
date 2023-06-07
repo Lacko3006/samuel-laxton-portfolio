@@ -2,14 +2,14 @@
 
 .about-me {
   display: flex;
-  flex-direction: column;
-  min-height: 80vh;
   align-items: center; /* Center align content vertically */
+  padding-top: 150px;
   padding-left: 150px; /* Add padding for better spacing */
   padding-right: 150px;
 }
 
 .about-me h2 {
+  padding-bottom: 50px;
   color: #f08223;
   font-family: century-gothic, sans-serif;
   font-size: 50px;
@@ -34,10 +34,10 @@
 }
 
 .profile-pic {
+  max-width: 100%;
   margin-top: 15px;
   width: 50%;
   max-width: 300px;
   border: 5px solid transparent;
-  border-radius: 50%;
   transform: rotate(90deg); /* Rotate the profile picture vertically */
 }

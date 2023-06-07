@@ -32,14 +32,17 @@
 }
 
 .github-img {
+  max-width: 100%;
   width: 200px;
 }
 
 .linked-in-img {
+  max-width: 100%;
   width: 150px;
 }
 
 .resume-img {
+  max-width: 100%;
   width: 150px;
   border-radius: 200%;
 }
