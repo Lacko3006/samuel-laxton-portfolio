@@ -9,15 +9,9 @@
 }
 
 .contact-content {
-  margin-top: 10%;
-  min-height: 100vh;
+  min-height: 70vh;
+  margin-bottom: 15%;
 }
 
-.link-description {
-  font-size: 45px;
-  color: #f08223;
-  font-family: "Alkatra", cursive;
-  margin-bottom: 10%;
-}
 
 

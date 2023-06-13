@@ -6,21 +6,6 @@ import ProjectsLogo from "../images/project-logo.png";
 import "../css/Header.css";
 
 export default function Navbar() {
-  const [stickyClass, setStickyClass] = useState("");
-
-  useEffect(() => {
-    window.addEventListener("scroll", stickNavbar);
-    return () => window.removeEventListener("scroll", stickNavbar);
-  }, []);
-
-  const stickNavbar = () => {
-    if (window !== undefined) {
-      let windowHeight = window.scrollY;
-      // window height changed for the demo
-      windowHeight > 150 ? setStickyClass("sticky-nav") : setStickyClass("");
-    }
-  };
-
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -29,7 +14,7 @@ export default function Navbar() {
 
   return (
     <div className="navbar-wrapper">
-      <div className={`navbar ${stickyClass}`}>
+      <div className={`navbar`}>
         <h2>Sam Laxton Portfolio</h2>
         <div className="navbar-links">
           <div className="container">

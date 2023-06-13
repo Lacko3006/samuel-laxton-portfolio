@@ -47,7 +47,9 @@
 
 .container img:hover {
   max-width: 100%;
-  width: 125px;
+  background-color: darkgreen;
+  border-radius: 90%;
+  height: 100px;
 }
 
 #burger-icon {
