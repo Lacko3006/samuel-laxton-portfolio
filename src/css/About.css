@@ -39,7 +39,6 @@
   width: 50%;
   max-width: 300px;
   border: 5px solid transparent;
-  transform: rotate(90deg); /* Rotate the profile picture vertically */
 }
 
 @media only screen and (max-width: 756px) {

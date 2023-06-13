@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 
 .homepage {
-  padding-top: 100px;
-  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
 }
@@ -27,6 +27,32 @@
   padding-top: 15%;
 }
 
+/* .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.links li {
+  list-style-type: none;
+  display: inline-block; /* Use inline-block to apply margins */
+  margin: 20px;
+}
+
+.linked-in-img {
+  max-width: 100%;
+  width: 75px; /* Adjust the width value as per your requirement */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.github-img,
+.resume-img {
+  max-width: 100%;
+  height: auto;
+  width: 75px;
+  border-radius: 200%;
+}
+
 @media only screen and (max-width: 726px) {
   .homepage-name {
     font-size: 40px;
@@ -42,10 +68,15 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .linked-in-img {
+    width: 50px;
+  }
+  
+  .github-img,
+  .resume-img {
+    width: 50px;
+  }
   .homepage {
-    min-height: 30vh;
+    min-height: 85vh;
   }
 }
-
-
-

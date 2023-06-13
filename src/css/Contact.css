@@ -20,29 +20,4 @@
   margin-bottom: 10%;
 }
 
-.links {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
 
-.links li {
-  list-style-type: none;
-  display: inline;
-}
-
-.github-img {
-  max-width: 100%;
-  width: 200px;
-}
-
-.linked-in-img {
-  max-width: 100%;
-  width: 150px;
-}
-
-.resume-img {
-  max-width: 100%;
-  width: 150px;
-  border-radius: 200%;
-}
