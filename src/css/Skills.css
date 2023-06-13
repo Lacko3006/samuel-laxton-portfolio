@@ -9,6 +9,8 @@
 }
 
 .contact-content {
+  padding-left: 150px;
+  padding-right: 150px;
   min-height: 70vh;
   margin-bottom: 15%;
 }
