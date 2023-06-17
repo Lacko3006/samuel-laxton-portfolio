@@ -30,7 +30,8 @@ body {
 .Homepage,
 .About,
 .Contact,
-.Projects {
+.Projects,
+.ContactForm {
     max-width: 100%;
     flex-grow: 1;
     padding: 1rem;

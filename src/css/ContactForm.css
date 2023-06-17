@@ -1,0 +1,41 @@
+.contact-form {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+.contact-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-name label {
+    text-align: center;
+}
+
+.contact-email{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-email label {
+    text-align: center;
+}
+
+.contact-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-message label {
+    text-align: center;
+}
+
+.message-area {
+    width: 500px;
+    height: 300px;
+}
+
+.message-area label {
+    text-align: center;
+}
