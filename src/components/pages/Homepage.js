@@ -3,7 +3,7 @@ import "../../css/Homepage.css";
 import GitHubLogo from "../../images/GitHub-logo.png";
 import LinkedInLogo from "../../images/LinkedIn_logo_initials.png.webp";
 import ResumeImg from "../../images/resume-pic.jpeg";
-import ResumePdf from "../../resume/sam-laxton-cv.pdf";
+import ResumePdf from "../../resume/Samuel-Laxton-Cv.pdf";
 
 export default function Home() {
   return (
