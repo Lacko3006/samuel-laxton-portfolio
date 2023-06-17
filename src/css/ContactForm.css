@@ -1,41 +1,39 @@
 .contact-form {
-    display: flex;
-    justify-content: center;
-    background-color: red;
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+  align-items: center;
 }
 
 .contact-name {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-name label {
-    text-align: center;
+  text-align: center;
 }
 
-.contact-email{
-    display: flex;
-    flex-direction: column;
+.contact-email {
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-email label {
-    text-align: center;
+  text-align: center;
 }
 
 .contact-message {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .contact-message label {
-    text-align: center;
+  text-align: center;
 }
 
-.message-area {
-    width: 500px;
-    height: 300px;
-}
-
-.message-area label {
-    text-align: center;
+.contact-message textarea {
+  width: 300px;
+  height: 300px;
 }

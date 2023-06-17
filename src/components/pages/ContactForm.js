@@ -12,35 +12,34 @@ export const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        serviceId,
-        templateId,
-        form.current,
-        publicKey,
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          console.log("Sent Successfully")
-          e.target.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
+      (result) => {
+        console.log(result.text);
+        console.log("Sent Successfully");
+        e.target.reset();
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
   };
 
   return (
     <div className="contact-form">
       <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+        <div className="contact-name">
+          <label>Name</label>
+          <input type="text" name="user_name" />
+        </div>
+        <div className="contact-email">
+          <label>Email</label>
+          <input type="email" name="user_email" />
+        </div>
+        <div className="contact-message">
+          <label>Message</label>
+          <textarea name="message" />
+          <input type="submit" value="Send" />
+        </div>
       </form>
     </div>
   );
