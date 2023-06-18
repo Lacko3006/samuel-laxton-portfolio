@@ -32,7 +32,7 @@ export default function Navbar() {
             </a>
           </div>
           <div className="container">
-            <a href="#contact">
+            <a href="#skill">
               <img
                 className="mobile-img"
                 src={MobileLogo}
@@ -62,7 +62,7 @@ export default function Navbar() {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#skill">Skills</a>
             </li>
             <li>
               <a href="#projects">Projects</a>
