@@ -47,7 +47,7 @@
 
 .container img:hover {
   max-width: 100%;
-  background-color: darkgreen;
+  background-color: #1b5e20;
   border-radius: 90%;
   height: 100px;
 }
@@ -92,7 +92,7 @@
 
 .open .mobile-menu a {
   font-family: century-gothic, sans-serif;
-  color: darkgreen;
+  color: #1b5e20;
   font-weight: bold;
   text-decoration: none;
   font-size: 20px;

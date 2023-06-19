@@ -1,19 +1,90 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
 
-.contact-title {
+.skill-page {
+  padding-left: 150px;
+  padding-right: 150px;
+  min-height: 75vh;
+  margin-bottom: 15%;
+}
+
+.development-icons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.software-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+
+.skill-page h1 {
   font-family: century-gothic, sans-serif;
   font-weight: bold;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
   color: #f08223;
   font-size: 50px;
 }
 
-.contact-content {
-  padding-left: 150px;
-  padding-right: 150px;
-  min-height: 70vh;
-  margin-bottom: 15%;
+.skill-page h2 {
+  font-family: century-gothic, sans-serif;
+  font-weight: bold;
+  margin-bottom: 5%;
+  color: #f08223;
+  font-size: 30px;
 }
 
+.html-icon,
+.css-icon,
+.javascript-icon,
+.react-icon,
+.csharp-icon,
+.git-icon,
+.docker-icon,
+.insomnia-icon,
+.mysql-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+  flex-basis: 20%;
+}
 
+.html-icon h6,
+.css-icon h6,
+.javascript-icon h6,
+.react-icon h6,
+.csharp-icon h6,
+.git-icon h6,
+.docker-icon h6,
+.insomnia-icon h6,
+.mysql-icon h6 {
+  font-family: century-gothic, sans-serif;
+  font-weight: bold;
+  padding: 15px;
+  color: #f08223;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .skill-page {
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .skill-page h1 {
+    font-size: 40px;
+  }
+
+  .skill-page h2 {
+    font-size: 30px;
+  }
+    .software-icons svg, .development-icons svg {
+      width: 50px; /* New width for smaller screens */
+      height: 50px; /* New height for smaller screens */
+    }
+  }
 
