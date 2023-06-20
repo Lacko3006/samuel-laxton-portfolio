@@ -26,6 +26,7 @@ export const ContactForm = () => {
 
   return (
     <div className="contact-form">
+      <h1>Contact Form</h1>
       <form ref={form} onSubmit={sendEmail}>
         <div className="contact-name">
           <label>Name</label>

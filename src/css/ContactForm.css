@@ -3,6 +3,12 @@
   justify-content: center;
   min-height: 80vh;
   align-items: center;
+  flex-direction: column;
+}
+
+.contact-form h1 {
+  color: #f08223;
+  margin-bottom: 40px;
 }
 
 .contact-name {
@@ -12,6 +18,7 @@
 
 .contact-name label {
   text-align: center;
+  color: #f08223;
 }
 
 .contact-email {
@@ -21,6 +28,7 @@
 
 .contact-email label {
   text-align: center;
+  color: #f08223;
 }
 
 .contact-message {
@@ -30,10 +38,16 @@
 }
 
 .contact-message label {
+  color: #f08223;
   text-align: center;
 }
 
 .contact-message textarea {
   width: 300px;
   height: 300px;
+}
+
+.contact-message input {
+  background-color: #1b5e20;
+  color: #f08223;
 }

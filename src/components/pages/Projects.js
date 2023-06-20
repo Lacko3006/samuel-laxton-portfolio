@@ -13,7 +13,7 @@ const ProjectCards = () => {
     {
       id: 1,
       title: "JavaScript Calculator",
-      description: "This was my first solo project.",
+      description: "In my JavaScript calculator project, the vibrant buttons, carefully chosen colors, and intuitive layout invite users to explore its functionality with ease. Powered by the robust JavaScript language, the calculator seamlessly handles basic arithmetic operations like addition, subtraction, multiplication, and division, providing accurate results in real-time. The calculator's error-handling mechanism ensures that any incorrect input is gracefully handled, preventing crashes and maintaining a smooth user experience. With its responsive design, the calculator adapts flawlessly to various screen sizes, making it accessible and user-friendly on both desktop and mobile devices. Whether you're solving a complex equation or simply need to calculate a tip at a restaurant, this JavaScript calculator project empowers you with speed and reliability, transforming the way calculations are performed in the digital world.",
       image: CalculatorProjectPic,
       link: "https://lacko3006.github.io/SamLaxton-Calculator"
     },
@@ -21,7 +21,7 @@ const ProjectCards = () => {
       id: 2,
       title: "Filmapedia",
       description:
-        "This project was created to help film lovers find popular information about their favorite skills at a moments notice.",
+        "The film searching project I developed is a powerful tool that puts the vast world of cinema at your fingertips. The project features a sleek and intuitive user interface, with a prominently placed search bar serving as the gateway to a treasure trove of movie information. Upon entering a query, the project employs API calls to meticulously scour its extensive database, sifting through an abundance of film titles, actors, directors, and genres to present you with the most relevant and accurate results. As you explore the search results, the project elegantly displays key information about each film, including its title, release year, synopsis, cast, and director. Visually appealing posters and captivating images further enhance the viewing experience, allowing you to quickly assess the visual style and aesthetic of each movie. By providing this comprehensive overview, the project empowers users to make informed decisions about which films to watch, saving precious time in the process. With its seamless integration of search functionality and curated film data, this project represents an invaluable resource for cinephiles, casual moviegoers, and industry professionals alike, elevating the film-searching experience to new heights.",
       image: FilmapediaPic,
       link: "https://lacko3006.github.io/Filmapedia/",
     },
@@ -29,7 +29,7 @@ const ProjectCards = () => {
       id: 3,
       title: "Rhythm Rater (Mini Project 2)",
       description:
-        "This project was created to help people who love music rate their favorite albums from a very long list of locally seeded data using SQL",
+        "This project was created to help people who love music rate their favorite albums from a very long list of locally seeded data using SQL, although needing work this is a great example of what can be done with the front and back end.",
       image: RhythmRaterPic,
       link: "https://github.com/Lacko3006/all-albums-all-genres",
     },
