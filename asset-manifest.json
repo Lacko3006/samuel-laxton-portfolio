@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/samuel-laxton-portfolio/static/css/main.65247b7f.css",
+    "main.css": "/samuel-laxton-portfolio/static/css/main.20931517.css",
     "main.js": "/samuel-laxton-portfolio/static/js/main.d7afcc02.js",
     "static/media/Filmapedia.png": "/samuel-laxton-portfolio/static/media/Filmapedia.3a24a427c714a4406161.png",
     "static/media/Rhythm-rater.png": "/samuel-laxton-portfolio/static/media/Rhythm-rater.552ef0a32b27fea1162b.png",
@@ -13,11 +13,11 @@
     "static/media/GitHub-logo.png": "/samuel-laxton-portfolio/static/media/GitHub-logo.5187823da27e346be7ce.png",
     "static/media/LinkedIn_logo_initials.png.webp": "/samuel-laxton-portfolio/static/media/LinkedIn_logo_initials.png.c7f76263b8ea214b7985.webp",
     "index.html": "/samuel-laxton-portfolio/index.html",
-    "main.65247b7f.css.map": "/samuel-laxton-portfolio/static/css/main.65247b7f.css.map",
+    "main.20931517.css.map": "/samuel-laxton-portfolio/static/css/main.20931517.css.map",
     "main.d7afcc02.js.map": "/samuel-laxton-portfolio/static/js/main.d7afcc02.js.map"
   },
   "entrypoints": [
-    "static/css/main.65247b7f.css",
+    "static/css/main.20931517.css",
     "static/js/main.d7afcc02.js"
   ]
 }
