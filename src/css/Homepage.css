@@ -49,6 +49,13 @@
   border-radius: 200%;
 }
 
+.github-img:hover,
+.resume-img:hover,
+.linked-in-img:hover {
+  width: 90px;
+  transition: 1s;
+}
+
 @media only screen and (max-width: 726px) {
   .homepage-name {
     font-size: 40px;
